@@ -1,0 +1,114 @@
+/* General Container Styling */
+.weather-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Forecast List Styling */
+  .forecast-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  /* Individual Forecast Item Styling */
+  .forecast-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+  }
+  
+  .forecast-item p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .time {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .temperature {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e57373;
+  }
+  
+  .condition {
+    font-size: 14px;
+    color: #4db6ac;
+  }
+  
+  .details {
+    font-size: 12px;
+    color: #777;
+  }
+
+  .alerts-section {
+    background-color: #ffdddd;
+    border: 1px solid #ff4444;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .alert-title {
+    font-size: 20px;
+    color: #d9534f;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .alert-item {
+    background-color: #fff5f5;
+    border: 1px solid #d9534f;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .alert-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .satellite-view {
+    text-align: center;
+    margin: 20px 0;
+  }
+ /* SatelliteView.css */
+
+.satellite-image {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.timestamp {
+  text-align: center;
+  color: #555;
+  font-size: 0.9em;
+}
+
+  
